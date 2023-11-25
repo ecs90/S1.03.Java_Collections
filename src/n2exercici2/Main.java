@@ -33,8 +33,8 @@ public class Main {
         Collections.sort(lista, new Comparator() {
             @Override
             public int compare(Object softDrinkOne, Object softDrinkTwo) {
-                return ((Restaurant)softDrinkOne).nom
-                        .compareTo(((Restaurant)softDrinkTwo).nom);
+                return ((Restaurant)softDrinkOne).getNom()
+                        .compareTo(((Restaurant)softDrinkTwo).getNom());
             }
         });
 

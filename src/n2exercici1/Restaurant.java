@@ -1,8 +1,8 @@
 package n2exercici1;
 
 public class Restaurant {
-    String nom;
-    int puntuacio;
+    private String nom;
+    private int puntuacio;
 
     public Restaurant(String nom, int puntuacio) {
         this.nom = nom;

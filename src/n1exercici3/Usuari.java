@@ -3,7 +3,7 @@ package n1exercici3;
 import java.util.Scanner;
 
 public class Usuari {
-    final String  nom;
+    private final String  nom;
     int     punt = 0;
 
     public Usuari() {

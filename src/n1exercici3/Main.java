@@ -87,10 +87,8 @@ public class Main {
             bw.close();
 
             System.out.println("Record Saved!");
-            //JOptionPane.showMessageDialog(null, "Record Saved!");
         } catch (Exception E) {
             System.out.println("Record not Saved!");
-            //JOptionPane.showMessageDialog(null, "Record Not Saved!");
         }
     }
 }
